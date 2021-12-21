@@ -20,8 +20,8 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+  background: rgba(223, 217, 217, 0.4);
+  background: rgb(41, 40, 40);
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -30,7 +30,6 @@ article {
   background: #fefefe;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -140,7 +139,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: rgb(22, 0, 63);
+  background: rgb(41, 40, 40);
 }
 
 .sidebar-info-box {
@@ -227,7 +226,7 @@ nav a span {
 .portfolio-intro {
   max-width: 1200px;
   padding: 40px 50px 0px;
-  background: #ef7aff;
+  background: rgba(160, 158, 158, 0.4);
 }
 
 .portfolio-intro h1 {
@@ -241,11 +240,11 @@ nav a span {
   font-size: 125%;
   margin: 0 auto;
   padding-bottom: 40px;
-  border-bottom: 1px solid #ad0051;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .projects-box {
-  background: #f7bdff;
+  background: rgba(223, 217, 217, 0.4);
 }
 
 .projects-box h5 {
@@ -315,7 +314,11 @@ nav a span {
   }
 
   .portfolio-intro h1 {
+    font-family: "Anton", sans-serif;
     font-size: 3rem;
+    text-shadow: 5px 5px rgba(0, 129, 50, 0.4);
+    text-align: center;
+    margin-bottom: 50px;
   }
 
   .box {

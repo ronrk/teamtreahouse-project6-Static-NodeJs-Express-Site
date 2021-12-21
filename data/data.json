@@ -32,6 +32,20 @@
         "../static/images/student-list.png",
         "../static/images/student-list2.png"
       ]
+    },
+    {
+      "id": "3",
+      "name": "Flashcards",
+      "description": "Flashcard app",
+      "technologies": ["JavaScript", "HTML", "CSS", "Express", "Pug"],
+      "live_link": "",
+      "github_link": "https://github.com/ronrk/teamtreahouse-project6-Static-NodeJs-Express-Site",
+      "image_urls": [
+        "../static/images/flashcard.png",
+        "../static/images/flashcard2.png",
+        "../static/images/flashcard3.png",
+        "../static/images/flashcard4.png"
+      ]
     }
   ]
 }

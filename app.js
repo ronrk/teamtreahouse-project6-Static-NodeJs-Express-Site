@@ -1,25 +1,32 @@
+// Import express module and data.json
 const express = require("express");
 const { projects } = require("./data/data.json");
 
+//declaring app as express
+
 const app = express();
 
+// middleware to handale cliend files, and set view engine settings to pug
 app.use("/static", express.static("public"));
 app.set("view engine", "pug");
 
+//routes handlers
+//index route
 app.get("/", (req, res, next) => {
   res.render("index", { projects });
 });
-
+// about route
 app.get("/about", (req, res, next) => {
   res.render("about");
 });
 
+//project ${id} route
 app.get("/project/:id", (req, res, next) => {
   const { id } = req.params;
-  console.log(projects[id]);
   res.render(`project`, { project: projects[id] });
 });
 
+//error handlers
 app.use((req, res, next) => {
   const err = new Error("404 Error called");
   err.status = 404;
@@ -36,4 +43,7 @@ app.use((err, req, res, next) => {
   }
 });
 
-app.listen(3000);
+// running local server on port: 3000
+app.listen(3000, () => {
+  console.log(`Local server start at localhost:3000`);
+});
