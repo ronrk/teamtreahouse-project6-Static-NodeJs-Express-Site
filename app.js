@@ -22,13 +22,13 @@ app.get("/project/:id", (req, res, next) => {
 
 app.use((req, res, next) => {
   const err = new Error("404 Error called");
-  res.status(404);
+  err.status = 404;
   next(err);
 });
 
 app.use((err, req, res, next) => {
   if (err.status === 404) {
-    res.status(404);
+    res.status = 404;
     return res.render("page-not-found", { err });
   } else {
     err.message = err.message || `Some error with the server`;
