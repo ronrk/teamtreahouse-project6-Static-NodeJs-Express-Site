@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "name": "List Pagination and Filtering",
+      "description": "App that generate list of 9 student evenly every page",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": ["../static/images/list.png", "../static/images/list2.png"]
+    },
+    {
+      "id": "1",
+      "name": "Four In a Row",
+      "description": "Four in a row web app game",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": [
+        "../static/images/four-in-row.png",
+        "../static/images/four-in-row2.png"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Student API",
+      "description": "generate random list of students from free API",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": [
+        "../static/images/student-list.png",
+        "../static/images/student-list2.png"
+      ]
+    }
+  ]
+}
