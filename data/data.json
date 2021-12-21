@@ -6,7 +6,7 @@
       "description": "App that generate list of 9 student evenly every page",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "",
-      "github_link": "",
+      "github_link": "https://github.com/ronrk/techdegree-project-2",
       "image_urls": ["../static/images/list.png", "../static/images/list2.png"]
     },
     {
@@ -27,7 +27,7 @@
       "description": "generate random list of students from free API",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "",
-      "github_link": "",
+      "github_link": "https://github.com/ronrk/techdegree-project-5-public_api_request-v1",
       "image_urls": [
         "../static/images/student-list.png",
         "../static/images/student-list2.png"
