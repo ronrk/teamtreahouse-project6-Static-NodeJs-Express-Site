@@ -36,6 +36,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.status = 404;
+    console.log(err.message, "page does not exsist");
     return res.render("page-not-found", { err });
   } else {
     err.message = err.message || `Some error with the server`;

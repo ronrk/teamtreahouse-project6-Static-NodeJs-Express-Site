@@ -2,31 +2,32 @@
   "projects": [
     {
       "id": "0",
-      "name": "List Pagination and Filtering",
+      "project_name": "List Pagination and Filtering",
       "description": "App that generate list of 9 student evenly every page",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "",
+      "live_link": "https://ronrk.github.io/techdegree-project-2/",
       "github_link": "https://github.com/ronrk/techdegree-project-2",
       "image_urls": ["../static/images/list.png", "../static/images/list2.png"]
     },
     {
       "id": "1",
-      "name": "Four In a Row",
-      "description": "Four in a row web app game",
+      "project_name": "Random Quotes",
+      "description": "Random famous musician quets",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "",
-      "github_link": "",
+      "live_link": "https://ronrk.github.io/techdegree-project-1/",
+      "github_link": "https://github.com/ronrk/techdegree-project-1",
       "image_urls": [
-        "../static/images/four-in-row.png",
-        "../static/images/four-in-row2.png"
+        "../static/images/random.png",
+        "../static/images/random2.png",
+        "../static/images/random3.png"
       ]
     },
     {
       "id": "2",
-      "name": "Student API",
+      "project_name": "Student API",
       "description": "generate random list of students from free API",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "",
+      "live_link": "https://ronrk.github.io/techdegree-project-5-public_api_request-v1/",
       "github_link": "https://github.com/ronrk/techdegree-project-5-public_api_request-v1",
       "image_urls": [
         "../static/images/student-list.png",
@@ -35,16 +36,28 @@
     },
     {
       "id": "3",
-      "name": "Flashcards",
-      "description": "Flashcard app",
-      "technologies": ["JavaScript", "HTML", "CSS", "Express", "Pug"],
-      "live_link": "",
-      "github_link": "https://github.com/ronrk/teamtreahouse-project6-Static-NodeJs-Express-Site",
+      "project_name": "Interactive Form",
+      "description": "Interactive form example",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://ronrk.github.io/Interactive-Form/",
+      "github_link": "https://github.com/ronrk/Interactive-Form",
       "image_urls": [
-        "../static/images/flashcard.png",
-        "../static/images/flashcard2.png",
-        "../static/images/flashcard3.png",
-        "../static/images/flashcard4.png"
+        "../static/images/form.png",
+        "../static/images/form2.png",
+        "../static/images/form3.png"
+      ]
+    },
+    {
+      "id": "4",
+      "project_name": "Parse Hunter",
+      "description": "Parse guessing interactive game",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://ronrk.github.io/techdegree-project-4-OOP-game-show/",
+      "github_link": "https://github.com/ronrk/techdegree-project-4-OOP-game-show",
+      "image_urls": [
+        "../static/images/parse-hunter.png",
+        "../static/images/parse-hunter2.png",
+        "../static/images/parse-hunter3.png"
       ]
     }
   ]
