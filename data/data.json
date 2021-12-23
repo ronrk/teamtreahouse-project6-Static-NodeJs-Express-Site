@@ -12,7 +12,7 @@
     {
       "id": "1",
       "project_name": "Random Quotes",
-      "description": "Random famous musician quets",
+      "description": "Random famous musician quotes",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://ronrk.github.io/techdegree-project-1/",
       "github_link": "https://github.com/ronrk/techdegree-project-1",
@@ -49,8 +49,8 @@
     },
     {
       "id": "4",
-      "project_name": "Parse Hunter",
-      "description": "Parse guessing interactive game",
+      "project_name": "Pharse Hunter",
+      "description": "Pharse guessing interactive game",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://ronrk.github.io/techdegree-project-4-OOP-game-show/",
       "github_link": "https://github.com/ronrk/techdegree-project-4-OOP-game-show",

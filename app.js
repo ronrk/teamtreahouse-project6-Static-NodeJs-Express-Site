@@ -23,20 +23,27 @@ app.get("/about", (req, res, next) => {
 //project ${id} route
 app.get("/project/:id", (req, res, next) => {
   const { id } = req.params;
-  res.render(`project`, { project: projects[id] });
+  if (projects[id]) {
+    res.render(`project`, { project: projects[id] });
+  } else {
+    next();
+  }
 });
 
 //error handlers
 app.use((req, res, next) => {
   const err = new Error("404 Error called");
-  err.status = 404;
-  next(err);
+  console.log(err.message, "page does not exsist");
+  res.status(404).render("page-not-found", { err });
 });
 
 app.use((err, req, res, next) => {
+  if (err) {
+    console.log(`Global error occured`, err);
+  }
   if (err.status === 404) {
     res.status = 404;
-    console.log(err.message, "page does not exsist");
+
     return res.render("page-not-found", { err });
   } else {
     err.message = err.message || `Some error with the server`;
